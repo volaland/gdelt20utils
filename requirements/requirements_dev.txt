@@ -1,0 +1,18 @@
+# Put develomment requirements here.
+# See for information
+# https://pip.pypa.io/en/stable/reference/pip_install/#requirements-file-format
+
+-r requirements.txt
+
+# dev tools
+csvkit==1.0.5
+pandas==1.2.0
+
+# code
+pylint==2.6.0
+mypy==0.790
+
+# tests
+Faker==5.3.0
+factory-boy==3.2.0
+pytest==6.2.1

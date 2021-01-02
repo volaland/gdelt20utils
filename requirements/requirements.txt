@@ -1,0 +1,28 @@
+# Put develomment requirements here.
+# See for information
+# https://pip.pypa.io/en/stable/reference/pip_install/#requirements-file-format
+
+click==7.1.2
+
+pyarrow==2.0.0
+fastavro==1.2.3
+
+psycopg2-binary==2.8.6
+SQLAlchemy==1.3.22
+
+elasticsearch-dsl==7.3.0
+
+tldextract==3.1.0
+pycountry==20.7.3
+fuzzywuzzy==0.18.0
+python-Levenshtein==0.12.0
+clean-text[gpl]==0.3.0
+
+trafaret==2.1.0
+CMRESHandler==1.0.0
+PyYAML==5.3.1
+
+idna==3.0
+requests==2.25.1
+jmespath==0.10.0
+arrow==0.17.0

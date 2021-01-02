@@ -1,0 +1,7 @@
+.*
+*.pyc
+tests
+Makefile
+mypy.ini
+pytest.ini
+README.md
