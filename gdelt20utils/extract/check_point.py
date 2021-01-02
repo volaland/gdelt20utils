@@ -2,8 +2,8 @@ import json
 import os
 from threading import Lock
 
-from gdelt20_utils.common import constants
-from gdelt20_utils.common import gd_path_gen
+from gdelt20utils.common import constants
+from gdelt20utils.common import gd_path_gen
 
 KEY_SUF_CNT = "_cnt"
 KEY_SUF_DATE = "_dt"

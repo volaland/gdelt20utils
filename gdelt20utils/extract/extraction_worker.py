@@ -1,7 +1,7 @@
 import os
 import requests
-from gdelt20_utils.common import utils_worker
-from gdelt20_utils.common.gd_logger import logger_obj
+from gdelt20utils.common import utils_worker
+from gdelt20utils.common.gd_logger import logger_obj
 
 HEARTBEAT_LOG_NUM = 10
 WORKER_ERROR_MAX = 100

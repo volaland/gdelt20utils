@@ -1,5 +1,5 @@
-from gdelt20_utils.common import constants_api
-from gdelt20_utils.common import utils_request
+from gdelt20utils.common import constants_api
+from gdelt20utils.common import utils_request
 
 
 class Gdelt20ApiClietnt():

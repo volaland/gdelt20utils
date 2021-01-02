@@ -1,8 +1,8 @@
 import click
 
-from gdelt20_utils.common import constants
-from gdelt20_utils.common.gd_config import config
-from gdelt20_utils.extract.run import run_extract
+from gdelt20utils.common import constants
+from gdelt20utils.common.gd_config import config
+from gdelt20utils.extract.run import run_extract
 
 
 

@@ -1,6 +1,6 @@
 import os
 
-APPLICATION_NAME = "gdelt20_utils"
+APPLICATION_NAME = "gdelt20utils"
 
 DATA_SOURCE = "gdelt20"
 
