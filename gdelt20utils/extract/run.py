@@ -1,9 +1,9 @@
-from gdelt20_utils.common.gd_logger import logger_obj
+from gdelt20utils.common.gd_logger import logger_obj
 
-from gdelt20_utils.common.gd_path_gen import Gdelt20PathGen
-from gdelt20_utils.extract.extractor import Gdelt20Extractor
-from gdelt20_utils.extract.file_list_gen import Gdelt20FileListGen
-from gdelt20_utils.extract.gd_dir_tree import create_path_tree
+from gdelt20utils.common.gd_path_gen import Gdelt20PathGen
+from gdelt20utils.extract.extractor import Gdelt20Extractor
+from gdelt20utils.extract.file_list_gen import Gdelt20FileListGen
+from gdelt20utils.extract.gd_dir_tree import create_path_tree
 
 
 def check_params(start_date, finish_date):

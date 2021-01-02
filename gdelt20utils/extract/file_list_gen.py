@@ -1,9 +1,9 @@
 import json
 import os
 
-from gdelt20_utils.common import gd_path_gen
-from gdelt20_utils.common.gd_logger import logger_obj
-from gdelt20_utils.extract.gd_api_client import gd_api_client
+from gdelt20utils.common import gd_path_gen
+from gdelt20utils.common.gd_logger import logger_obj
+from gdelt20utils.extract.gd_api_client import gd_api_client
 
 
 class Gdelt20FileListGen():

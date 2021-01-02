@@ -1,7 +1,7 @@
 import sys
 import logging
 
-from gdelt20_utils.common.constants import APPLICATION_NAME
+from gdelt20utils.common.constants import APPLICATION_NAME
 
 
 class Logger():

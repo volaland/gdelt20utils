@@ -22,7 +22,6 @@ trafaret==2.1.0
 CMRESHandler==1.0.0
 PyYAML==5.3.1
 
-idna==3.0
 requests==2.25.1
 jmespath==0.10.0
 arrow==0.17.0

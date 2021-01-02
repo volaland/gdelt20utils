@@ -1,6 +1,6 @@
 import os
 
-from gdelt20_utils.common import constants_api
+from gdelt20utils.common import constants_api
 
 GDELT_METADATA_DIR = 'metadata'
 CHECK_POINT_FILE = 'check_point_{start_date}_{finish_date}.json'

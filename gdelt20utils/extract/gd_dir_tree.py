@@ -3,7 +3,7 @@ import os
 
 from dateutil.relativedelta import relativedelta
 
-from gdelt20_utils.common import gd_path_gen
+from gdelt20utils.common import gd_path_gen
 
 
 def get_target_path_list(base_path, start_date, finish_date, language, obj_type, obj_format):
