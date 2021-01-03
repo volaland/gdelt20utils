@@ -25,6 +25,9 @@ class Gdelt20Extractor():
 
     def __call__(self, *args, **kwargs):
         for language in self.languages:
+
+            self.check_point.set_language(language)
+
             with open(self.path_gen.get_list_timestamps_file_name(language), "r") as tof:
                 ts_list = json.load(tof)
                 ts_list_len = len(ts_list)
@@ -34,8 +37,6 @@ class Gdelt20Extractor():
 
                 self.logger.info("Downloading {}, count {} from {}".format(
                     language, len(ts_list), self.path_gen.get_list_timestamps_file_name(language)))
-
-                self.check_point.set_language(language)
 
                 FileExtractWorker(
                     language,
