@@ -12,10 +12,10 @@ class Logger():
     def init_loger(self, filename, level=logging.INFO, name=APPLICATION_NAME):
         logging.basicConfig(
             level=level,
-            format='%(asctime)s|%(pathname)s:%(lineno)s|%(levelname)s| %(message)s',
+            format="%(asctime)s|%(pathname)s:%(lineno)s|%(levelname)s|%(message)s",
             handlers=(
                 logging.StreamHandler(sys.stdout),
-                logging.FileHandler(filename, encoding='utf8')
+                logging.FileHandler(filename, encoding="utf8")
             )
         )
 
