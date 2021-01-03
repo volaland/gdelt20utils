@@ -22,8 +22,8 @@ API_FILE_LIST_URL = {
         "gkg": API_BASE_URL + "/{}.{}.csv.zip"
     },
     "tl": {
-        "export": API_BASE_URL + "/{}.{}.translation.CSV.zip",
-        "mentions": API_BASE_URL + "/{}.{}.translation.CSV.zip",
-        "gkg": API_BASE_URL + "/{}.{}.translation.csv.zip"
+        "export": API_BASE_URL + "/{}.translation.{}.CSV.zip",
+        "mentions": API_BASE_URL + "/{}.translation.{}.CSV.zip",
+        "gkg": API_BASE_URL + "/{}.translation.{}.csv.zip"
     }
 }
