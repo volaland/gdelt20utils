@@ -15,7 +15,7 @@ class Logger():
             format='%(asctime)s|%(pathname)s:%(lineno)s|%(levelname)s| %(message)s',
             handlers=(
                 logging.StreamHandler(sys.stdout),
-                logging.FileHandler(filename, mode='w+', encoding='utf8')
+                logging.FileHandler(filename, encoding='utf8')
             )
         )
 

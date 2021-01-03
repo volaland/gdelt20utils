@@ -10,7 +10,6 @@ CONCURENCY_NUM = max(
     CONCURENCY_NUM_MIN,
     min(cpu_count()*2, CONCURENCY_NUM_MAX)
 )
-
 LOCK_OBJ = Lock()
 
 

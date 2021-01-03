@@ -27,6 +27,10 @@ class Gdelt20Extractor():
         for language in self.languages:
             with open(self.path_gen.get_list_timestamps_file_name(language), "r") as tof:
                 ts_list = json.load(tof)
+                ts_list_len = len(ts_list)
+                if self.check_point.get_cnt() == ts_list_len:
+                    self.logger.info(f"Skip processing {language}, downloaded {ts_list_len}, job complete")
+                    continue
 
                 self.logger.info("Downloading {}, count {} from {}".format(
                     language, len(ts_list), self.path_gen.get_list_timestamps_file_name(language)))
